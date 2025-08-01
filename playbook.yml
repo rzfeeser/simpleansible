@@ -1,0 +1,7 @@
+- name: hello
+  hosts: localhost
+  connection: local
+
+  tasks:
+  - name: first
+    command: echo hello
